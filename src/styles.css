@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap");
+
+.App {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+body {
+  background-color: #a9cee8;
+}
+main {
+  height: 80vh;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.title {
+  margin-top: 1rem;
+  font-family: "Permanent Marker";
+  font-weight: 400;
+}
+
+.genre-list-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-top: 1rem;
+  font-family: "Roboto";
+  font-size: 1rem;
+
+  border: black solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.genre-list-btn:hover {
+  background-color: #fff;
+}
+
+.movie-detail {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.movie-detail-list {
+  width: 70%;
+}
+
+.movie-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.movie-bullets {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #82807f;
+  width: 100%;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 3px #414754;
+  background: #fbf6f3;
+}
+
+hr {
+  margin-top: 0.5rem;
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+/*footer*/
+
+.footer {
+  position: absolute;
+  background-color: #fff;
+
+  color: black;
+  font-size: 1rem;
+  height: 6rem;
+  width: 100%;
+  padding: 2rem 1rem;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.footer a {
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+  color: #5d6c89;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
